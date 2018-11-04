@@ -1,0 +1,135 @@
+title: "Best Bitcoin Exchange"
+url: "https://bestbitcoinexchange.co"
+baseurl: ""
+
+author: "Chris"
+
+##### Stars
+stars:
+  one: '<span class="star-rating">★☆☆☆☆</span>'
+  two: '<span class="star-rating">★★☆☆☆</span>'
+  three: '<span class="star-rating">★★★☆☆</span>'
+  four: '<span class="star-rating">★★★★☆</span>'
+  five: '<span class="star-rating">★★★★★</span>'
+
+##### Ads
+
+ref:
+  binance: '<a rel="nofollow" target="_blank" href="https://www.binance.com/?ref=15980293">Binance</a>&nbsp;'
+  bitfinex: '<a rel="nofollow" target="_blank" href="https://www.bitfinex.com/?refcode=5egV78YtlC">Bitfinex</a>&nbsp;'
+  ledger: '<a rel="nofollow" target="_blank" href="https://www.ledgerwallet.com/r/e274">Ledger wallet</a>&nbsp;'
+  trezor: '<a rel="nofollow" target="_blank" href="https://shop.trezor.io?a=fany@tutanota.com">Trezor</a>&nbsp;'
+  tradingview: '<a rel="nofollow" target="_blank" href="http://tradingview.go2cloud.org/SH1Je">TradingView</a>&nbsp;'
+  bitmex: '<a rel="nofollow" target="_blank" href="https://www.bitmex.com/register/iYQB44">BitMEX</a>&nbsp;'
+  coinmama: '<a rel="nofollow" target="_blank" href="https://www.coinmama.com/?ref=fny3000">CoinMama</a>&nbsp;'
+  coinbase: '<a rel="nofollow" target="_blank" href="https://www.coinbase.com/join/564e7650f7cad400d90001ef">Coinbase</a>&nbsp;'
+  lbc: '<a rel="nofollow" target="_blank" href="https://localbitcoins.com/?ref=4nq3">Localbitcoins</a>&nbsp;'
+
+banner:
+  binance: '<a rel="nofollow" target="_blank" href="https://www.binance.com/?ref=15980293"><img alt="Binance cryptocurrency exchange" src="/ads/binance-exchange-728x90.jpg"></a>'
+
+
+
+ledger_300-250_animated: '<div class="containter-center"><a id="gtm-ledger-300-250" href="https://www.ledgerwallet.com/r/e274?path=/products/ledger-nano-s" rel="nofollow" target="_blank"><img src="/ads/ledger_300-250_animated.gif" alt="Ledger wallet for bitcoin and altcoins"></a></div>'
+ledger_728-90_animated: '<div class="containter-center"><a id="gtm-ledger-728-90" href="https://www.ledgerwallet.com/r/e274?path=/products/ledger-nano-s" rel="nofollow" target="_blank"><img src="/ads/ledger_728-90_animated.gif" alt="Ledger wallet for bitcoin and altcoins"></a></div>'
+
+
+
+ads:
+  sidebar_1: "<iframe data-aa='111577' frameborder='0' scrolling='no' src='https://ad.a-ads.com/111577?size=300x250' style='width:300px; height:250px; border:0px; padding:0;overflow:hidden'></iframe>"
+  aads486: "<iframe data-aa='334173' src='https://ad.a-ads.com/334173?size=468x60' scrolling='no' style='width:468px; height:60px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>"
+  aads: '<iframe data-aa="114136" src="https://ad.a-ads.com/114136?size=728x90" scrolling="no" style="width:728px; height:90px; border:0px; padding:0;overflow:hidden" allowtransparency="true" frameborder="0"></iframe>'
+  aadstall: '<iframe data-aa="114135" src="https://ad.a-ads.com/114135?size=120x600" scrolling="no" style="width:120px; height:600px; border:0px; padding:0;overflow:hidden" allowtransparency="true" frameborder="0"></iframe>'
+  aads336: '<div class="containter-center"><iframe data-aa="165257" src="https://ad.a-ads.com/165257?size=336x280" scrolling="no" style="width:336px; height:280px; border:0px; padding:0;overflow:hidden" allowtransparency="true" frameborder="0"></iframe></div>'
+  aadslong: "<iframe data-aa='334169' src='https://ad.a-ads.com/334169?size=728x90' scrolling='no' style='width:728px; height:90px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>"
+  lbc: '<div class="containter-center"><iframe frameborder="0" height="60" marginheight="0" marginwidth="0" scrolling="no" src="https://localbitcoins.com/affiliate-embed/half-banner?ref=4nq3" width="234"></iframe></div>'
+  pm: '<div class="containter-center"><a rel="nofollow" target="_blank" href="https://perfectmoney.is/?ref=7622697">
+    <amp-img itemprop="image" src="/images/finance/perfectmoney-bitcoin.jpg" alt="Perfect Money Bitcoin" layout="responsive"
+    data-original-width="468px" data-original-height="60px"  width="468px" height="60px"></amp-img></a></div>'
+  ledger: '<div class="containter-center"><a rel="nofollow" target="_blank" href="https://www.ledgerwallet.com/r/e274">
+    <amp-img itemprop="image" src="https://www.ledgerwallet.com/images/promo/ledger-468x90-01.jpg"
+    alt="Ledger Wallet protects your bitcoins" layout="responsive"
+    data-original-width="468px" data-original-height="90px"
+    width="468px" height="90px"></amp-img></a></div>'
+  vaultoro: '<div class="containter-center">
+    <a href="https://www.vaultoro.com/?a=100376" rel="nofollow" target="_blank">
+      <amp-img itemprop="image" src="https://s3-eu-west-1.amazonaws.com/vuser/b_vaultoro_336x280.png"
+      alt="Vaultoro Gold Bitcoin Exchange" data-original-width="336px"
+      data-original-height="280px" layout="responsive" width="336px" height="280px">
+      </amp-img>
+     </a>
+    </div>'
+  acash: '<div class="containter-center">
+    <a href="http://wallet.advcash.com/referral/3d50b494-473e-45e5-8434-5ad9d8658cc8" rel="nofollow" target="_blank">
+      <amp-img itemprop="image" src="/images/cc/acash.png"
+      alt="AdvCash Bitcoin Virtual Credit Card" data-original-width="336px"
+      data-original-height="300px" layout="responsive" width="336px" height="300px">
+      </amp-img>
+    </a>
+  </div>'
+  acashlong: '<div class="containter-center">
+    <a href="http://wallet.advcash.com/referral/3d50b494-473e-45e5-8434-5ad9d8658cc8" rel="nofollow" target="_blank">
+      <amp-img itemprop="image" src="/images/vcc/acashlong.jpg"
+      alt="AdvCash Bitcoin Virtual Credit Card" data-original-width="582px"
+      data-original-height="72px" layout="responsive" width="468px" height="60px">
+      </amp-img>
+    </a>
+  </div>'
+  forextall: '<a href="https://1broker.com/?r=10603" rel="nofollow" target="_blank" title="1Broker Bitcoin Forex">
+    <amp-img itemprop="image" src="https://1broker.com/img/banner2-160x600.png"
+    alt="1Broker Bitcoin Forex" data-original-width="160px"
+    data-original-height="600px" layout="responsive" width="144px" height="540px">
+    </amp-img>
+  </a>'
+  forexlong: '<div class="containter-center"><a rel="nofollow" target="_blank"
+  href="https://1broker.com/?r=10603">
+    <amp-img itemprop="image" src="https://1broker.com/img/banner2-728x90.png"
+    alt="1Broker Bitcoin Forex" layout="responsive"
+    data-original-width="728px" data-original-height="90px"
+    width="728px" height="90px"></amp-img></a></div><br><br>'
+  forexsmall: '<a rel="nofollow" target="_blank"
+  href="https://1broker.com/?r=10603">
+    <amp-img itemprop="image" src="https://1broker.com/img/banner2-234x60.png"
+    alt="1Broker Bitcoin Forex" layout="responsive"
+    data-original-width="234px" data-original-height="60px"
+    width="300px" height="80px"></amp-img></a>'
+  bitmex: '<div class="containter-center"><a href="https://www.bitmex.com/register/iYQB44" rel="nofollow" target="_blank">
+     <amp-img itemprop="image" src="https://c1.staticflickr.com/1/326/31871187894_1b18f2cd45_o.png"
+     alt="Bitmex Bitcoin Futures 10% off fees" data-original-width="328px"
+     data-original-height="250px" layout="responsive" width="328px" height="250px">
+     </amp-img></a></div>'
+  poker300: '<div class="containter-center">
+    <a href="https://nitrogensports.eu/r/607690" rel="nofollow" target="_blank">
+      <amp-img itemprop="image" src="/images/gambling/NitrogenPoker_300x250.jpg"
+      alt="Anonymous Bitcoin Poker" data-original-width="300px"
+      data-original-height="250px" layout="responsive" width="336px" height="300px">
+      </amp-img></a></div>'
+  freeroll300: '<div class="containter-center">
+    <a href="https://nitrogensports.eu/r/607690" rel="nofollow" target="_blank">
+      <amp-img itemprop="image" src="/images/gambling/btc-poker-freeroll_350x300.png"
+      alt="Anonymous Bitcoin Poker Freeroll" data-original-width="350px"
+      data-original-height="300px" layout="responsive" width="336px" height="300px">
+      </amp-img></a></div>'
+  nitrolong: '<div class="containter-center">
+    <a href="https://nitrogensports.eu/r/607690" rel="nofollow" target="_blank">
+      <amp-img itemprop="image" src="/images/gambling/nitrogen-banner.jpg"
+      alt="Anonymous Bitcoin Poker" data-original-width="720px"
+      data-original-height="90px" layout="responsive" width="486px" height="60px">
+      </amp-img></a></div><br><br>'
+  air144: '<div class="containter-center">
+    <a href="https://airvpn.org/?referred_by=209931" rel="nofollow" target="_blank">
+      <amp-img itemprop="image" src="https://airvpn.org/images/promotional/banner_190x190.gif"
+      alt="Anonymous Bitcoin VPN" data-original-width="190px"
+      data-original-height="190px" layout="responsive" width="144px" height="144px">
+      </amp-img></a></div>'
+  coinmama1: '<div class="containter-center"><a href="https://www.CoinMama.com/?ref=fny3000" rel="nofollow" target="_blank">
+      <amp-img itemprop="image" src="/images/finance/coinmama.png" alt="CoinMama: Buy Bitcoins with Credit Card" data-original-width="328px"
+      data-original-height="150px" layout="responsive" width="328px" height="150px"></amp-img></a></div>'
+  skrill-intext: '<div style="text-align:left;float:left;margin-right:10px"><a href="https://account.skrill.com/signup?rid=69256549" rel="nofollow" target="_blank"><img src="https://www.skrill.com/fileadmin/content/images/affiliates/promo_centre/english/vipbanners/banner-250x250_en.gif"></a></div>'
+  trezor_ad: '<a rel="nofollow" target="_blank" href="https://shop.trezor.io/?a=fany@tutanota.com"><amp-img itemprop="image" src="https://netlify.scdn4.secure.raxcdn.com/96e96b4a49079f15c0762736b9584c44a06cd2f3/97d4c/img/wallets/trezor.jpg" alt="Trezor Wallet for bitcoins and altcoins" data-original-width="728px"
+  data-original-height="90px" layout="responsive" width="486px" height="60px">
+  </amp-img></a>'
+  trezorbox: '<a rel="nofollow" target="_blank" href="https://shop.trezor.io/?a=fany@tutanota.com">
+  <amp-img itemprop="image" src="/images/wallet/trezor.jpg" alt="Trezor Wallet for bitcoins and altcoins"
+  data-original-width="350px" data-original-height="330px" layout="responsive" width="350px" height="330px">
+  </amp-img></a>'

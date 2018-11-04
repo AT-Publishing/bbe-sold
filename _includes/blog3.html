@@ -1,0 +1,29 @@
+<div class="row">
+  <div class="col-md-12 section-headline text-center">
+    <h2>Latest Blog Posts</h2>
+  </div>
+</div>
+
+<div class="row blog">
+
+  {% for item in site.posts limit: 3 %}
+  <div class="col-md-4 col-sm-4 xs-margin-bottom-ten">
+    <div class="blog-post">
+      <div class="blog-post-images">
+        <a href="/{% if item.permalink %}{{ item.permalink | prepend: site.baseurl }}{% else %}{{ item.slug | prepend: site.baseurl }}{% endif %}">
+          <img src="{{ item.feature }}" alt="{{ item.title }}">
+        </a>
+      </div>
+        <div class="post-details">
+          <a href="/{% if item.permalink %}{{ item.permalink | prepend: site.baseurl }}{% else %}{{ item.slug | prepend: site.baseurl }}{% endif %}" class="post-title">
+           {{ item.title }}
+          </a>
+          <span class="post-author">Posted by {% if item.author %}{{ item.author }}{% else %}{{ site.author }}{% endif %} | {{ item.date | date: "%d %b %Y" }}</span>
+          <p>{{ item.description }}</p>
+        </div>
+        <div class="separator-line"></div>
+      </div>
+    </div>
+    {% endfor %}
+
+</div><!-- row blog -->

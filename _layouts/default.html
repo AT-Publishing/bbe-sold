@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+ {% include head.html %}
+  <body>
+   <div id="main" class="">
+
+    <nav v-bind:class="active" v-on:click.prevent>
+      <h1 class="site-title">{{ site.title }}</h1>
+      <a href="#" class="home" v-on:click="makeActive('home')">Home</a>
+      <a href="#" class="coins" v-on:click="makeActive('coins')">Small Altcoins</a>
+      <a href="#" class="card" v-on:click="makeActive('card')">With Card</a>
+      <a href="#" class="fiat" v-on:click="makeActive('fiat')">Fiat Solutions</a>
+    </nav>
+
+   <div class="row no-gutters">
+
+    <div class="col-md-8 col-sm-8 xs-margin-bottom-ten table-patch">
+
+     <section>
+       {{ content }}
+     </section>
+     <section style="margin: 50px;">
+       {{ site.banner.binance }}
+     </section>
+    </div><!-- container -->
+    <div class="col-md-4 col-sm-4 xs-margin-bottom-ten sidebar">
+      <section class="text-content">
+        {% raw %}
+
+        <h4>Best crypto exchange in 2018?</h4>
+        <p style="text-align:center">Comments for section <b>{{ active }}</b></p>
+
+        <div v-bind:class="active">
+          <div class="home" v-html="content.home"></div>
+          <div class="coins" v-html="content.coins"></div>
+          <div class="card" v-html="content.card"></div>
+          <div class="fiat" v-html="content.fiat"></div>
+        </div>
+
+        {% endraw %}
+      </section>
+    </div>
+
+    </div><!-- main -->
+
+
+    {% include blog3.html %}
+
+    {% include footer.html %}
+
+
+    <script type="text/javascript">
+    var demo = new Vue({
+    el: '#main',
+    data: {
+      active: 'home',
+      content: {
+        home: '<h5>Best exchange to onramp to crypto</h5><p>You can always buy bitcoin anonymously on <a rel="nofollow" target="_blank" href="https://localbitcoins.com/?ref=4nq3">Localbitcoins</a> and exchange that for the cryptocurrency of your choice. On any other crypto exchange you will need to verify your identity. Depending on how many new users are currently signing up, it can take weeks before the support rep verifies your documents.</p><p>If you do not mind waiting for verification the best places to buy crypto are:</p><ul><li><a rel="nofollow" target="_blank" href="https://www.coinbase.com/join/564e7650f7cad400d90001ef">Coinbase</a> which also provides a web wallet for BTC, BCH, ETH and LTC.</li><li><a rel="nofollow" target="_blank" href="https://coinmate.io?referral=UVdneFZXd3hiVTVaV2s5YVlXSnNlazV4Um5ScGR3PT0">CoinMate</a> which lets you buy cryptocurrencies for EUR.</li></ul><h5>Best exchange for daytrading</h5><p>One of the most popular cryptocurrency trading platforms is Bitfinex. Even though the <a rel="nofollow" href="https://en.wikipedia.org/wiki/Bitfinex_hack">Bitfinex exchange was hacked in 2016</a> it remained hugely popular: the trading interface is great, margin trading is available for most cryptocurrencies and there is the p2p lending option that can be profitable when you do not want to trade.</p><p>However in December 2017 Bitfinex stopped accepting new users because (as most crypto exchanges) it got overloaded and could not technically keep up with the influx of people.</p><p>Your best options for 2018 are the following trading platforms:</p><ul><li><a rel="nofollow" target="_blank" href="https://www.binance.com/?ref=15980293">Binance</a> - lists new coins regularly, has two different trading views (basic and advanced), is quite reliable  could not require berification although it limits withdrawals without.</li><li><a rel="nofollow" target="_blank" href="https://mercatox.com/?referrer=137469">Mercatox</a> - One of the still lesser known altcoin exchanges which means it is less overloaded with users. Mercatox is also quick to list new cryptocurrencies. </li><li><a rel="nofollow" target="_blank" href="https://www.coinbase.com/join/564e7650f7cad400d90001ef">GDAX</a> - You will need to verify but GDAX is the most popular trading platform in the US so you will get good deep markets.</li><li><a rel="nofollow" target="_blank" href="https://www.bitmex.com/register/iYQB44">BitMEX</a> - A derivative platform for more advanced traders.</li></ul>',
+        coins: '<h5>Where to buy DAG-cryptocurrencies</h5>Cryptocurrencies that use DAG (directed acyclic graph) instead of blockchain have gained a lot of popularity in 2017. Currently the most prominent non-blockchain cryptocurrencies are Iota, Byteball and RaiBlocks (Raiblocks use other ledger than DAG but are also non-blockchain).<ul><li>You can buy Iota on Bitfinex and <a rel="nofollow" target="_blank" href="https://www.binance.com/?ref=15980293">Binance</a>.</li><li>Byteball is available on <a rel="nofollow" target="_blank" href="https://www.binance.com/?ref=15980293">Binance</a> and <a rel="nofollow" target="_blank" href="https://www.bittrex.com">Bittrex</a>.</li><li>RaiBlocks are trading on <a rel="nofollow" target="_blank" href="https://mercatox.com/?referrer=137469">Mercatox</a> and <a rel="nofollow" target="_blank" href="https://bitflip.li/?ref=16sdsmzkzhec ">BitFlip</a></li></ul><h5>Where to trade Ethereum-based Tokens</h5><p>ERC20 and other Ethereum tokens have been massively popular thanks to the boom of ICOs. You can store these tokens on any ETH address, such as on one generated with MyETHwallet.</p><p>The best exchange to trade ERC20 will soon be decentralized platforms that are launching and might become prominent in 2018: EthFinex or <a rel="nofollow" target="_blank" href="https://next.exchange/?ref=N2Q2NmM3MjVkOA">NextExchange</a>.</p><p>Current best places to trade Ethereum tokens:</p><ul><li><a rel="nofollow" target="_blank" href="https://www.binance.com/?ref=15980293">Binance</a></li><li><a rel="nofollow" target="_blank" href="https://mercatox.com/?referrer=137469">Mercatox</a></li></ul><p>If you are interested in cryptocurrency daytrading, trading strategy and analyses visit <a rel="nofollow" target="_blank" href="https://altcointrading.net">altcointrading.net</a>.</p>',
+        card: '<p>If you want to buy cryptocurrency with debit card or credit card, your best option is <a rel="nofollow" target="_blank" href="https://www.coinmama.com/?ref=fny3000">Coinmama</a>. Bear in mind that you have to verify, and that the prices will be a bit higer than on a trading exchange. You can also purchase BTC, ETH, LTC or XRP from a debit card via <a rel="nofollow" target="_blank" href="https://bitstamp.net">Bitstamp</a> if you are verified.</p><p>If you are looking to buy bitcoin or altcoins for money that is in a web wallet such as OkPay, Advcash, Skrill or Neteller, in some web wallets you can do it directly (such as Neteller), other ones will enable you to deposit money to <a rel="nofollow" target="_blank" href="https://bitflip.li/?ref=16sdsmzkzhec ">BitFlip</a></li> or <a rel="nofollow" target="_blank" href="https://mercatox.com/?referrer=137469">Mercatox</a> and buy there.</p><p>Some sellers on <a rel="nofollow" target="_blank" href="https://localbitcoins.com/?ref=4nq3">Localbitcoins</a> also trade for Skrill or Paypal money.</p>',
+        fiat: '<h5>Cryptocurrency arbitrage</h5><p>When you start looking into bitcoin exchange to buy or sell on, you will notice that prices differ from one another. One typical example is GDAX vs Bitfinex, Australian exchanges vs Europen exchanges, or Japanese or Korean markets vs the western cryptocurrency markets. If you can find a way to move the fiat currency you can make money on this difference in pricing.</p><p>To take advantage of these arbitrage opportunities you can make use of virtual bank accounts that are available with apps such as <a rel="nofollow" target="_blank" href="https://www.n26.com">N26</a> or <a rel="nofollow" target="_blank" href="https://www.revolut.com/?lang=en">Revolut</a>. They are currently open only for residents within the European Economic Area (EEA) and Switzerland but <a rel="nofollow" target="_blank" href="https://www.revolut.com/faq?lang=en">Revolut Business is also open to companies registered in EEA</a>.</p>'
+      }
+    },
+    methods: {
+      makeActive: function(item){
+        this.active = item;
+      }
+    }
+    })
+    </script>
+  </body>
+</html>

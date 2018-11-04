@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+ {% include head.html %}
+  <body>
+   <div id="main" class="">
+
+    <nav class="home">
+      <h1 class="site-title">{{ site.title }}</h1>
+      <a href="/" class="back"><< Back Home</a>
+      <a href="#" class="home">{{ page.title }}, {{ page.date | date: "%d %b %Y" }}</a>
+    </nav>
+
+   <div class="row no-gutters">
+
+    <div class="col-md-4 col-sm-4 xs-margin-bottom-ten sidebar single-sidebar">
+      {% include sidebar.html %}
+    </div>
+
+    <div class="col-md-8 col-sm-8 xs-margin-bottom-ten table-patch">
+     <section class="single-content">
+
+       <span class="post-author">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %} | {{ page.date | date: "%d %b %Y" }}</span>
+
+       {{ content }}
+
+     </section>
+    </div><!-- container -->
+
+    </div><!-- main -->
+
+
+    {% include blog3.html %}
+
+    {% include footer.html %}
+
+
+
+    <script type="text/javascript">
+    var demo = new Vue({
+    el: '#main',
+    data: {
+      active: 'home'
+    },
+    methods: {
+      makeActive: function(item){
+        this.active = item;
+      }
+    }
+    })
+    </script>
+  </body>
+</html>

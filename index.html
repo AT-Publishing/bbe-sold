@@ -1,0 +1,99 @@
+---
+layout: default
+title: "Best Crypto Exchanges 2018"
+
+header: [exchange, location, new signups, markets, site reliability, support, buy'n'hold experience, trading experience]
+
+rows:
+- ['<a rel="nofollow" target="_blank" href="https://www.binance.com/?ref=15980293">Binance</a>',
+'<a rel="nofollow" target="_blank" href="https://www.crunchbase.com/organization/binance">CN: Binance</a>',
+"REOPENED 8 January 2018" ,
+"Lots of smaller altcoins, monthly additions. Crypto markets. ",
+"Great", "OK", "Buying only for crypto: Primarily crypto exchange", "Great"]
+- ['<a rel="nofollow" target="_blank" href="https://www.bitfinex.com/?refcode=5egV78YtlC">Bitfinex, Ethfinex</a>',
+"BVI: iFinex",
+"REOPENED 12 January with minimum equity limit: Accounts created after 1 January need to deposit at least 10k worth of crypto to unlock the trading interface." ,
+"USD, EUR and crypto markets for BTC, XRP, ETH, BCH, IOT, LTC, EOS, NEO, OMG, XMR, ETC, DSH, ZEC, QTUM, BTG, EDO, ETP, SAN, SNT, DATA, GNT, YOYOW, QASH, and AVT",
+"Good", "Overloaded", "Poor - banking issues", "Great. Fees start at 0.1% maker, get lower with monthly volume. Discount with referral link."]
+- ['<a rel="nofollow" target="_blank" href="https://www.kucoin.com/#/?r=7wJhh7">KuCoin</a>',
+"HK: Kucoin Co., Limited",
+"open" ,
+"BTC, ETH, NEO, KCS and USDT markets for mass of altcoins - even small alts like RaiBlocks",
+"Good", "Good", "N/A, cryptoassets only", "Great. Flat fee of only 0.1% per trade, effectively even lower with KCS (KuCoin Shares - internal token system similar to what Binance does). Additional discount with referral link."]
+- ['<a rel="nofollow" target="_blank" href="https://coinmate.io?referral=UVdneFZXd3hiVTVaV2s5YVlXSnNlazV4Um5ScGR3PT0">CoinMate</a>',
+"UK: Confirmo Ltd",
+"Open, needs video verification." ,
+"BTC, BCH, LTC - to fiat as BTCEUR market only.",
+"Good", "Overloaded", "Great, very low fees.", "Buy/Sell platform only, no trading interface."]
+- ['<a rel="nofollow" target="_blank" href="https://www.coinbase.com/join/564e7650f7cad400d90001ef">GDAX (Switch from Coinbase to avoid fees)</a>',
+'<a href=\"https://www.crunchbase.com/organization/coinbase\">US: Coinbase</a>',
+"Open with verification." ,
+"USD, EUR and crypto markets for BTC, BCH, LTC, ETH, possibly XRP",
+"Low during price action", "OK", "Great", "OK"]
+- ['<a rel="nofollow" target="_blank" href="https://kraken.com">Kraken</a>',
+"US: Payward Ltd",
+"Still open, sadly" ,
+"Most big cryptocurrencies, no recent coin additions.",
+"Poor, unusable.", "Overloaded", "Good, solid banking relationships.", "Poor, unusable."]
+- ['<a rel="nofollow" target="_blank" href="https://mercatox.com/?referrer=137469">Mercatox</a>',
+"UK: Mercatox Ltd",
+"open" ,
+"Most altcoin markets, good to buy new altcoins like RaiBlocks.",
+"OK", "OK", 'Primarily crypto trading exchange - <a rel="nofollow" target="_blank" href="https://mercatox.com/fees?referrer=137469">OKPay and web wallets available</a>', "Good"]
+- ['<a rel="nofollow" target="_blank" href="https://bitflip.li/?ref=16sdsmzkzhec ">BitFlip</a>',
+"UK: Bitflip Ltd",
+"open" ,
+"USD, EUR, RUB and other fiat markets for BTC, ETH and small altcoins. Good to buy new altcoins like RaiBlocks.",
+"OK", "OK", "Web wallets, Advcash", "Buggy but mostly usable"]
+- ['<a rel="nofollow" target="_blank" href="https://poloniex.com">Poloniex</a>',
+"US: Poloniex",
+"open" ,
+"Most altcoin markets. Fiat markets against USDT (Tether).",
+"Poor", "Nonexistent", "Buying only for crypto: Primarily crypto exchange, no fiat routes", "Poor, bugs everywhere."]
+- ['<a rel="nofollow" target="_blank" href="https://bittrex.com">Bittrex</a>',
+"US: Bittrex LLC",
+"CLOSED" ,
+"Most altcoin markets. Fiat markets against USDT (Tether).",
+"OK", "Overloaded", "Buying only for crypto: Primarily crypto exchange, no fiat routes", "OK"]
+- ['<a rel="nofollow" target="_blank" href="https://www.coinmama.com/?ref=fny3000">Coinmama</a>',
+"US: Coinmama",
+"Open, with verification." ,
+"Buy BTC or ETH with credit card of any currency.",
+"Good", "Good", "Debit card, Credit card, Western Union.", "No trading interface - buying platform only."]
+
+
+
+---
+
+<!-- ['<a rel="nofollow" target="_blank" href="https://www.binance.com/?ref=15980293"><img alt="Binance cryptocurrency exchange" src="/ads/binance-exchange-728x90.jpg"></a>', '', '', '', '', '', '', '']-->
+
+{% if page.header %}
+<div class="tbl-header">
+  <table cellpadding="0" cellspacing="0" border="0">
+    <thead>
+      <tr>
+        {% for item in page.header %}
+        <th>{{ item }}</th>
+        {% endfor %}
+      </tr>
+    </thead>
+  </table>
+</div>
+{% endif %}
+{% if page.rows %}
+<div class="tbl-content">
+  <table cellpadding="0" cellspacing="0" border="0">
+      <tbody>
+
+      {% for row in page.rows %}
+      <tr>
+        {% for item in row %}
+          <td>{{ item }}</td>
+        {% endfor %}
+      </tr>
+      {% endfor %}
+
+      </tbody>
+  </table>
+</div>
+{% endif %}
